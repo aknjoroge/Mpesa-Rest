@@ -1,0 +1,19 @@
+{
+  "name": "sdkformpesa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "live ": "ngrok http 2500"
+  },
+  "keywords": [],
+  "author": "Alexander Karanja",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mpesa-api": "^3.0.2",
+    "ngrok": "^4.2.2",
+    "nodemon": "^2.0.12"
+  }
+}
